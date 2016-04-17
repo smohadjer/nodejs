@@ -11,12 +11,14 @@ var server = http.createServer(function (req, res) {
 			var item = '';
 			req.setEncoding('utf8');
 			req.on('data', function(chunk) {
+				console.log(chunk);
 				item += chunk;
 			});
 			req.on('end', function() {
 				items.push(item);
 				res.end('Ok\n');
 			});
+			console.log('posted');
 			break;
 		case 'GET':
 			/*
