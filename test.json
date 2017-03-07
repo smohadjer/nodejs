@@ -1,0 +1,155 @@
+{
+	"config": {
+		"end": "2017-07-27",
+		"active-classes": ["special", "hatha", "weekend", "yin"]
+	},
+	"sessions": [
+		{
+			"title": "Hatha Yoga",
+			"class-id": "hatha-at-info",
+			"yoga-type": "hatha",
+			"level": "All",
+			"address": "InFö, Mauerstr. 2, 72070 Tübingen",
+			"repeats": true,
+			"dates": [
+		     	{"date": "2017-02-27", "teacher": "Miguel", "teacher-id": "miguel"},
+		     	{"date": "2017-03-06", "teacher": "Miguel", "teacher-id": "miguel"},
+				{"date": "2017-03-13", "teacher": "Miguel", "teacher-id": "miguel"},
+				{"date": "2017-03-20", "teacher": "Miguel", "teacher-id": "miguel"},
+				{"date": "2017-03-27", "teacher": "Miguel", "teacher-id": "miguel"}
+			],
+			"repeat-cycle": "week",
+			"day-of-week": "Monday",
+			"start-time": "18:00",
+			"end-time": "19:30",
+			"teacher": "Solmaz",
+			"teacher-id": "solmaz",
+			"start-date": null,
+			"end-date": "2017-03-28",
+			"booking-url": null,
+			"cancelations": [
+				{"date": "2016-12-26"},
+				{"date": "2017-03-20"}
+			]
+		},
+		{
+			"title": "Hatha Yoga",
+			"class-id": "hatha-at-info",
+			"yoga-type": "hatha",
+			"level": "All",
+			"address": "InFö, Mauerstr. 2, 72070 Tübingen",
+			"repeats": true,
+			"dates": [
+				{"date": "2016-11-24", "teacher": "Solmaz", "teacher-id": "solmaz"},
+				{"date": "2017-01-05", "teacher": "Konstantina", "teacher-id": "konstantina"}
+			],
+			"repeat-cycle": "week",
+			"day-of-week": "Thursday",
+			"start-time": "18:00",
+			"end-time": "19:30",
+			"teacher": "Miguel",
+			"teacher-id": "miguel",
+			"start-date": null,
+			"end-date": "2017-03-28",
+			"booking-url": null,
+			"cancelations": [
+				{"date": "2016-12-22"},
+				{"date": "2016-12-29"}
+			]
+		},
+		{
+			"title": "Hatha Yoga",
+			"class-id": "hatha-at-fbs",
+			"yoga-type": "hatha",
+			"level": "All",
+			"address": "die Familien-Bildungsstätte, Christophstr. 10, 72072 Tübingen",
+			"repeats": true,
+			"repeat-cycle": "week",
+			"day-of-week": "Friday",
+			"dates": null,
+			"start-time": "18:00",
+			"end-time": "19:30",
+			"teacher": "Solmaz",
+			"teacher-id": "solmaz",
+			"start-date": "2017-05-05",
+			"end-date": "2017-07-21",
+			"booking-url": null,
+			"cancelations": [
+			    {"date": "2017-05-12"},
+				{"date": "2017-05-26"},
+				{"date": "2017-06-09"},
+				{"date": "2017-06-16"}
+			]
+		},
+		{
+			"title": "Yin Yoga",
+			"class-id": "yin",
+			"yoga-type": "yin",
+			"level": "All",
+			"address": "die Familien-Bildungsstätte, Christophstr. 10, 72072 Tübingen",
+			"repeats": true,
+			"repeat-cycle": "week",
+			"day-of-week": "Tuesday",
+			"dates": null,
+			"start-time": "17:15",
+			"end-time": "18:15",
+			"teacher": "Solmaz",
+			"teacher-id": "solmaz",
+			"start-date": "2017-05-02",
+			"end-date": "2017-07-18",
+			"booking-url": null,
+			"cancelations": [
+			    {"date": "2017-06-06"},
+				{"date": "2017-06-13"}
+			]
+		},
+		{
+			"title": "108 Sun Salutations",
+			"class-id": "special",
+			"yoga-type": "special",
+			"level": "Intermediate/Advanced",
+			"address": "InFö, Mauerstr. 2, 72070 Tübingen",
+			"repeats": false,
+			"dates": [
+				{"date": "2017-03-20"},
+				{"date": "2017-06-22"},
+				{"date": "2017-09-21"},
+				{"date": "2017-12-21"}
+			],
+			"start-time": "18:00",
+			"end-time": "19:30",
+			"teacher": "Miguel",
+			"teacher-id": "miguel",
+			"start-date": null,
+			"end-date": null,
+			"booking-url": null,
+			"cancelations": null
+		},
+		{
+			"title": "Weekend Yoga at InFö",
+			"class-id": "weekend",
+			"yoga-type": "special",
+			"level": "All",
+			"address": "InFö, Mauerstr. 2, 72070 Tübingen",
+			"repeats": false,
+			"dates": [
+			    {"date": "2017-02-26", "teacher": "Konstantina", "teacher-id": "konstantina"},
+			    {"date": "2017-03-05", "teacher": "Gabriel"},
+				{"date": "2017-03-12", "teacher": "Miguel", "teacher-id": "miguel"},
+				{"date": "2017-03-19", "teacher": "Peter", "teacher-id": "peter"},
+				{"date": "2017-03-26", "teacher": "Konstantina", "teacher-id": "konstantina"}
+			],
+			"start-time": "18:00",
+			"end-time": "19:00",
+			"teacher": null,
+			"teacher-id": null,
+			"start-date": null,
+			"end-date": null,
+			"booking-url": null,
+			"cancelations": [
+				{"date": "2016-12-25"},
+				{"date": "2017-01-01"}
+			]
+		}
+	]
+}
